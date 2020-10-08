@@ -1,3 +1,3 @@
 FROM ubuntu:18.04
-RUN npm install
-CMD npm build
+RUN sudo apt install nodejs
+CMD npm install && npm build
