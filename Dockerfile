@@ -1,2 +1,2 @@
-FROM FROM node:12
+FROM node:12
 CMD npm install && npm build
