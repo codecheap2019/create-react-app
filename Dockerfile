@@ -1,3 +1,2 @@
-FROM ubuntu:18.04
-RUN apt install nodejs
+FROM FROM node:12
 CMD npm install && npm build
